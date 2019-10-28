@@ -1,9 +1,13 @@
-PC: usuario/usuario
+# Scratch y Arduino
 
-wifi: cepcor_profesorado / cep_profe
+## CEP Motril
 
-Documentación: 
-https://github.com/javacasm/ArduinoBasicoCEPCordoba
+
+### José Antonio Vacas @javacasm
+
+[![CCbySA](imagenes/CCbySQ_88x31.png)](./imagenes/Licencia_CC.png)
+
+## https://github.com/javacasm/ScratchArduinoMotril
 
 Entorno
 http://bitbloq.bq.com

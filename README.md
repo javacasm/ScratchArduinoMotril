@@ -100,7 +100,7 @@ Con este curso se pretende introducir a los docentes de Primaria en el uso de la
   * Breve historia y revisión de proyectos que lo usan
   * Programación con entornos visuales
   * Componentes electrónicos sencillos
-* [Programación visual en Arduino](./BitBloq.md) y (ArduinoBlocks)
+* Programación visual en Arduino: [mBlock](./mBlock.md), [BitBloq](./BitBloq.md) y ([ArduinoBlocks](./arduinoBlocks.md))
   * Sentencias de control
   * Variables
   * Medida de tiempos

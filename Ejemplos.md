@@ -14,6 +14,45 @@
 
 # Ejemplos
 
+## Dibuja Polígono
+
+![](./imagenes/DibujaPoligono.png)
+
+[Proyecto](https://scratch.mit.edu/projects/339942571/)
+
+## Dibuja Polígono 2 
+
+Creamos un bloque/función
+
+![](./imagenes/DibujaPoligonos2.png)
+
+
+[Proyecto](https://scratch.mit.edu/projects/341771734/)
+
+## Dibuja Estrellas 
+
+A partir del bloque que dibujaba polígonos
+
+![](./imagenes/DibujaEstrellas.png)
+
+[Proyecto](https://scratch.mit.edu/projects/341776098/)
+
+## Nevada
+
+Utilizamos clones y mensajes
+
+Los copos
+![](./imagenes/NevadaCopo.png)
+El Sol derrite los copos
+![](./imagenes/nevadaSol.png)
+El muñeco de nieve crea los copos
+![](./imagenes/NevadaSnowman.png)
+
+
+[Proyecto](https://scratch.mit.edu/projects/341785813/)
+
+## Otros ejemplos
+
 Veamos algunos ejemplos de juegos y cómo implementarlos en scratch
 
 ## El muro (arkanoid)

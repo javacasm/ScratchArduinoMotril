@@ -57,9 +57,25 @@ Haremos parpadear el led Rojo
 
 ![Hello LED!](./imagenes/HelloLed!.png)
 
+Ahora vamos a usar un led conectado al pin 11
+
+![](./imagenes/Led3Uno_bb.png)
+
 [Proyecto](https://planet.mblock.cc/project/102035)
 
+### Graduando el brillo del led
+
+Vamos hora a graduar el nivel de brillo
+
+![](./imagenes/ControlBrilloLed.png)
+
+[Proyecto](https://planet.mblock.cc/project/109965)
+
 ### Led RGB
+
+¿Y si mezclamos colores?
+
+![](./imagenes/LedRGB.png)
 
 ![Mezcla colores](./imagenes/Colores-MezclaRGB.jpeg)
 
@@ -79,10 +95,18 @@ Parece que hay algo de desajuste. Tendremos que mejorar la comunicación con ...
 
 ### Nivel de luz
 
+Vamos a leer el valor de un sensor de luz
+
+![](./imagenes/LDRUno_bb.png)
+
 Usaremos los 3 leds de colores para indicar el nivel de luz:
 * Rojo: luz baja
 * Amarillo: nivel de luz medio
 * Verde: luz suficiente
+
+
+
+![](./imgenes/LDR_3xLedsUno_bb.png)
 
 ![NivelLuminoso](./imagenes/NivelLuminoso.png)
 
@@ -90,11 +114,14 @@ Usaremos los 3 leds de colores para indicar el nivel de luz:
 
 ### Controlando el movimiento de Osito con el Joystick
 
-Sabemos que el joystick está conectado a los pines analógicos A0 (eje x) y A1 (eje y). Vamos a ver los valores que encontramos.
+Conectamos el joystick a los pines analógicos A0 (eje x) y A1 (eje y). Vamos a ver los valores que encontramos.
+
+![](./imagenes/JoystickUno_bb.png)
 
 Vemos como la lectura de los sensores analógicos fluctúa, es algo normal. Un hardware más preciso (y caro) tendría una lectura más exacta.
 
 Creamos una variables x e y para Arduino y comprobamos los valores del joystick
+
 
 ![Joystick Arduino](./imagenes/Joystick-Arduino.png)
 
@@ -102,13 +129,6 @@ Creamos una variables x e y para Arduino y comprobamos los valores del joystick
 
 [Proyecto](https://planet.mblock.cc/project/102052) 
 
-### Controlar el movimiento de Osito con el acelerómetro
-
-Modificar el ejemplo anterior para que controlemos a Osito con el acelerómetro
-
-Pista: modificar el programa para usar el sensor adecuado
-
-[Proyecto](https://planet.mblock.cc/project/102061)
 
 ### Controlamos la posición de 2 servos usando el joystick
 

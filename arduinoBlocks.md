@@ -85,8 +85,6 @@ Arduino es un microcontrolador (microordenador que controla cosas) de diseño ab
 
 ### Montaje ([electrónica](./presentaciones/4.0%20-%20Introducci%C3%B3n%20a%20la%20electr%C3%B3nica.pdf))
 
-![Arduino nano](http://www.circuitstoday.com/wp-content/uploads/2018/02/Arduino-Nano-Pinout.jpg)
-
 ![Componentes](./imagenes/wholesale-37-in-1-box-kits-de-sensor-37-sensor.jpg)
 
 
@@ -118,11 +116,17 @@ Empezaremos seleccionando el tipo de placa Arduino que vamos a usar y a continua
 
 ### Montaje con placa prototipo
 
-![led placa](./imagenes/Led_3_nano.png)
+![led placa](./imagenes/Led3Uno_bb.png)
 
 ![¿cómo funciona una placa prototipo?](./imagenes/breadboard1.gif)
 
 #### Ejercicio: Cambiar el pin utilizado al pin 7
+
+#### Regulando la velocidad de parpadeo
+
+#### Regulando el brillo
+
+![](./imagenes/Led3_regulableUno_bb.png)
 
 * * *
 
@@ -134,7 +138,7 @@ Empezaremos seleccionando el tipo de placa Arduino que vamos a usar y a continua
 
 ## Con un relé usaremos ¡¡grandes corrientes eléctricas!!
 
-![DHT11 montaje](./imagenes/DHT11Rele.png)
+![DHT11 montaje](./imagenes/ReleUno_bb.png)
 
 ![Danger](./imagenes/Dangers-of-electric-shock.jpg)
 
@@ -147,6 +151,7 @@ Empezaremos seleccionando el tipo de placa Arduino que vamos a usar y a continua
 * Necesitamos un programa para ver los datos
 
 ## Vamos a enviar "On" y "Off" al PC
+
 ![ParpadeoSerie](./imagenes/ParpadeoSerie.png)
 
 [Programa](http://www.arduinoblocks.com/web/project/174290)
@@ -162,7 +167,7 @@ Podemos utilizar los componentes disponibles con conexión sencilla
 
 ![DHT11_programa](./imagenes/DHT11_programa.png)
 
-![Incubadora-DHT11](./imagenes/Incubadora-DHT11.png)
+![Incubadora-DHT11](./imagenes/DHHT11Uno_bb.png)
 
 
 ##### Ahora enviamos "Textos" y **Valores**
@@ -174,7 +179,7 @@ Podemos utilizar los componentes disponibles con conexión sencilla
 
 #### En función de la temperatura vamos a decidir si activar el elemento calefactor
 
-![Incubadora-DHT11](./imagenes/Incubadora-DHT11.png)
+![Incubadora-DHT11](./imagenes/DHT11ReleUno_bb.png)
 
 ![Incubadora - Programa](./imagenes/Incubadora_DHT11_programa.png)
 
@@ -214,7 +219,7 @@ Convertiremos (mapearemos) la medida de entre 0 y 1023 a una temperatura entre 2
 
 ![map](./imagenes/Mapeo.png)
 
-![mapeotiempos](./imagenes/IncubadoraRegulableDHT11.png)
+![mapeotiempos](./imagenes/DHT11Rele3RegulableUno_bb.png)
 
 [Programa](http://www.arduinoblocks.com/web/project/174382)
 

@@ -16,6 +16,10 @@
 
 ## Dibuja Polígono
 
+* Aprendemos a movernos y a dibujar usando la extensión Lápiz
+* Preguntamos al usuario y usamos su respuesta
+* Usamos bucles para repetir las acciones
+
 ![](./imagenes/DibujaPoligono.png)
 
 [Proyecto](https://scratch.mit.edu/projects/339942571/)
@@ -31,7 +35,7 @@ Creamos un bloque/función
 
 ## Dibuja Estrellas 
 
-A partir del bloque que dibujaba polígonos
+A partir del bloque que dibujaba polígonos dibujamos estrellas
 
 ![](./imagenes/DibujaEstrellas.png)
 

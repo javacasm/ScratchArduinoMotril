@@ -99,7 +99,9 @@ Vamos a medir la humedad del suelo para crear un sistema automático de riego
 * Conectamos un sensor de humedad de suelo a la entrada IN de echidna (A4)
 * Conectamos un servomotor para simular a la válvula/grifo que enciende el riego. Alternativamente podemos usarlo para mover un cartel/indicador que nos diga que la planta tiene sed
 
-![riego](./images/Riego.png)
+![riego](./imagenes/RiegoReleUno_bb.png)
+
+![riego](./imagenes/Riego-arduino.png)
 
 ![](./images/SensorHumedadArduino.png)
 

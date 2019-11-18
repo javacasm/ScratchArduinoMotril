@@ -92,6 +92,29 @@ Parece que hay algo de desajuste. Tendremos que mejorar la comunicación con ...
 
 [Programa](https://planet.mblock.cc/project/projectshare/101707)
 
+### Sistema de riego
+
+
+Vamos a medir la humedad del suelo para crear un sistema automático de riego
+* Conectamos un sensor de humedad de suelo a la entrada IN de echidna (A4)
+* Conectamos un servomotor para simular a la válvula/grifo que enciende el riego. Alternativamente podemos usarlo para mover un cartel/indicador que nos diga que la planta tiene sed
+
+![riego](./images/Riego.png)
+
+![](./images/SensorHumedadArduino.png)
+
+En función del nivel de humedad enviamos 3 mensajes distintos: Húmedo, Seco y Muy Seco
+
+Se han creado varios fondos y varios personajes que cambian al recibir los mensajes
+
+![](./images/SensorHumedadFondo.png)
+![](./images/SensorHumedadObjetos.png)
+
+
+
+
+[Proyecto](https://planet.mblock.cc/project/103662)
+
 
 ### Nivel de luz
 

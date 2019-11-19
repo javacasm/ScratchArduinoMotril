@@ -103,16 +103,14 @@ Vamos a medir la humedad del suelo para crear un sistema automático de riego
 
 ![riego](./imagenes/Riego-arduino.png)
 
-![](./images/SensorHumedadArduino.png)
+![](./imagenes/SensorHumedadArduino.png)
 
 En función del nivel de humedad enviamos 3 mensajes distintos: Húmedo, Seco y Muy Seco
 
 Se han creado varios fondos y varios personajes que cambian al recibir los mensajes
 
-![](./images/SensorHumedadFondo.png)
-![](./images/SensorHumedadObjetos.png)
-
-
+![](./imagenes/SensorHumedadFondo.png)
+![](./imagenes/SensorHumedadObjetos.png)
 
 
 [Proyecto](https://planet.mblock.cc/project/103662)

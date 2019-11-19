@@ -92,6 +92,14 @@ Parece que hay algo de desajuste. Tendremos que mejorar la comunicación con ...
 
 [Programa](https://planet.mblock.cc/project/projectshare/101707)
 
+Para usar la interconexión y la interacción vamos a hacer que nuestro arduino envíe unos mensaje con los colores que está mostrando. Osito, cuando los escuche pronunciará esos nombres en chino mandarín. Para ello hemos usado la extensión TTS (para hablar) y el traductor para traducir los nombres de los colores a chino
+
+![ColoresMensajes](./imagenes/ColoresMensajes.png)
+
+![OsitoColoresMensajes](./imagenes/OsitoColoresMensajes.png)
+
+[Proyecto](https://planet.mblock.cc/project/102464)
+
 ### Sistema de riego
 
 

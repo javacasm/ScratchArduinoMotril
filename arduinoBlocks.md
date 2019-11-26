@@ -88,7 +88,7 @@ Arduino es un microcontrolador (microordenador que controla cosas) de diseño ab
 ![Componentes](./imagenes/wholesale-37-in-1-box-kits-de-sensor-37-sensor.jpg)
 
 
-### Herramientas de programación: [ArduinoBlocks.com](https://arduinoblocks.com)
+### Herramientas de programación: [ArduinoBlocks.com](http://www.arduinoblocks.com)
 
 ![arduinoblocks](https://lh3.googleusercontent.com/JvIaf64ZFVdXHSF6tvCxkPl3kjybaag_u1RDn-8CgjplLbYxrwo2MR7JCBdbsqnKGVuMNSAM-GAxKpiojjHvv9ZNW2-6tEDv16wKzTXCKfoY9kvXZFamGB0Zb9Gt4RYltr_-nSvytXmPEIDduMtPbBd6QH5PqOiCRZA3LeonLbH0DS1UsztQQJVTFJFsY_bR4dsEsscbkRBNsUdn6dFaYgSL0zXf-__Wj2HDx2cnL5s4P7G-qZQ9H6-HmSbkrMrDDOYVNt-FSuPB2Jfs1XYlyRLMW6kLbN2Sv15VrMQjFoQxK8_2qkEiP88E6t29Mm-CDBcczdCuH-2nKIbnS5Mte3jV8svZ6G6W1foSyofot0ttTuLeNgf74j3TJt05Nn71e0KrYrIA2IMtWCAtRlwgaBRrt2Y2q9VF-EFYtX3oUGSCNfvJL-i-bWHkQ64YLVUM706Hx0xDWell7Qs7hXqC8jy3JdVIpHimXaY4o4QVN3bBpPzxbmOBcLyULChMHNKpIw_JbevgXoajtwtRNKDl6R39yGaBoEyAQgrvsF8L55iLGz0t01a82xkMbcDfQALVzNT3VIOkda74eP6gwRXSFTRJlBBM3bwqGpQvwyyUoSZ3a13mbYwhb044MFw-rmxwqfX2W_gLjd6Os44R7l3cdQtdmq-ekpBAzuHgEnIpT0-iiIcNwLpyub-BdyIHLWSrbamwe14mQpvg-s_78w=w373-h348-no)
 
@@ -209,19 +209,22 @@ Ejemplo: [lcd](http://arduino.cc/en/pmwiki.php?n=Reference/LiquidCrystal) o [ser
 ### Se leen valores enteros entre 0 y 1023
 ### Equivalen a los valores de 0V y 5V
 
-![pot](./imagenes/DHT11Rele3RegulableNano_bb.png)
+![mapeotiempos](./imagenes/DHT11Rele3RegulableUno_bb.png)
+
 
 Vamos a utilizar nuestro potenciómetro para seleccionar la temperatura objetivo
 
 En muchas ocasiones necesitamos hacer la transformación al rango que a nosotros nos interesa. Para simplificarlo usamos las funciones matemáticas **map**
 
-Convertiremos (mapearemos) la medida de entre 0 y 1023 a una temperatura entre 20 y 40º 
+Convertiremos (mapearemos) la medida de entre 0 y 100 a una temperatura entre 15 y 30º 
 
 ![map](./imagenes/Mapeo.png)
 
-![mapeotiempos](./imagenes/DHT11Rele3RegulableUno_bb.png)
+
+![pot](./imagenes/DHT11Regulable-bloques.png)
 
 [Programa](http://www.arduinoblocks.com/web/project/174382)
+[Programa v2](http://www.arduinoblocks.com/web/project/192734)
 
 * * *
 # Números decimales

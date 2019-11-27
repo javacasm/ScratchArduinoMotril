@@ -116,6 +116,7 @@ Con este curso se pretende introducir a los docentes de Primaria en el uso de la
   * Montaje
   * Programación
 * Exposición de los proyectos
+* ¿[Qué y dónde comprar](./Comprar.md)?
 
 ### [Tarea final](./Tarea.md)
 
